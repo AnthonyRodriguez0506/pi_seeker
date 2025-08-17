@@ -36,7 +36,7 @@ def search_word_in_file(file_path, word, block_size=1000):
 
 # ======================
 
-word_to_search = "hola"
+word_to_search = "ASCII"
 file_path = "pi_digits.txt"
 
 digits_processed, ascii_index = search_word_in_file(file_path, word_to_search)
